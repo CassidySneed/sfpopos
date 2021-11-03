@@ -1,0 +1,50 @@
+[
+    {
+        "name": "50 California Street",
+        "address": "50 California St.",
+        "images": [
+            "sf.jpeg"
+        ],
+        "hours": "9:00 AM - 10:00PM"
+    },
+    {
+        "name": "20 California Street",
+        "address": "50 California St.",
+        "images": [
+            "sf.jpeg"
+        ],
+        "hours": "9:00 AM - 10:00PM"
+    },
+    {
+        "name": "10 California Street",
+        "address": "50 California St.",
+        "images": [
+            "sf.jpeg"
+        ],
+        "hours": "9:00 AM - 10:00PM"
+    },
+    {
+        "name": "90 California Street",
+        "address": "50 California St.",
+        "images": [
+            "sf.jpeg"
+        ],
+        "hours": "9:00 AM - 10:00PM"
+    },
+    {
+        "name": "104 California Street",
+        "address": "50 California St.",
+        "images": [
+            "sf.jpeg"
+        ],
+        "hours": "9:00 AM - 10:00PM"
+    },
+    {
+        "name": "104 California Street",
+        "address": "50 California St.",
+        "images": [
+            "sf.jpeg"
+        ],
+        "hours": "9:00 AM - 10:00PM"
+    }
+]
