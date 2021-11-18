@@ -1,20 +1,33 @@
-// src/App.js
-
-import React from 'react';
-import './App.css';
-
-import Title from './Title';
-import POPOSList from './POPOSList';
-import Footer from './Footer';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import About from "./About";
+import POPOSList from "./POPOSList";
+import Title from "./Title";
+import Footer from "./Footer";
+import POPOSDetails from "./POPOSDetails";
+import POPOSFeature from "./POPOSFeature";
 
 function App() {
+
   return (
-    <div className="App">
+    <Router>
+      <div className="App">
+
       <Title />
-      <POPOSList />
+
+      <Routes>
+        <Route path="/" element={<POPOSList />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/details/:id" element={<POPOSDetails />} />
+        
+
+      </Routes>
+
       <Footer />
-    </div>
-  );
+
+      </div>
+    </Router>
+  )
 }
 
-export default App;
+
+export default App
