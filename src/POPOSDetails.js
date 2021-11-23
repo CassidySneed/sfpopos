@@ -7,6 +7,8 @@ import data from './sfpopos-data'
 import './POPOSDetails.css'
 import { useParams } from 'react-router'
 
+import POPOSFeatureList from './POPOSFeatureList'
+
 function POPOSDetails(props) {
   const { id } = useParams()
   const { images, title, desc, hours, features, geo } = data[id]
